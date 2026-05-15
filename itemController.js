@@ -35,3 +35,17 @@ export const update = async (req, res) => {
         res.status(500).json({ error: "Internal Server Error." });
     }
 };
+
+export const deleteItem = async (req, res) => {
+    try {
+        const id = req.params.id;
+        const itemExist = await Item.findOne({ _id: id });
+        if (!itemExist) {
+            return res.status(404).json({ message: "Item not found." });
+        }
+        await Item.findByIdAndDelete(id);
+        res.status(201).json({ message: "Item deleted successfully." });
+    } catch (error) {
+        res.status(500).json({ error: "Internal Server Error." });
+    }
+};
