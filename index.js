@@ -16,7 +16,7 @@ app.use((req, res, next) => {
 });
 
 app.use(bodyParser.json());
-app.use("/api/item", route);
+app.use("/api/items", route);
 
 const PORT = process.env.PORT || 5000;
 const MONGOURL = process.env.MONGO_URL;

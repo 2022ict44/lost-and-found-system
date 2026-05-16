@@ -3,10 +3,9 @@ import { create, fetch, update, deleteItem } from "../controller/itemController.
 
 const route = express.Router();
 
-// Route definitions
-route.post("/report", create);        // POST: /api/items/report
-route.get("/getall", fetch);          // GET: /api/items/getall
-route.put("/update/:id", update);     // PUT: /api/items/update/id
-route.delete("/delete/:id", deleteItem); // DELETE: /api/items/delete/id
+route.post("/report", create);       
+route.get("/getall", fetch);          
+route.put("/update/:id", update);     
+route.delete("/delete/:id", deleteItem); 
 
 export default route;
