@@ -1,5 +1,6 @@
 import Item from "../model/itemModel.js";
 
+// 1. Create: Report a new item
 export const create = async (req, res) => {
     try {
         const itemData = new Item(req.body);
@@ -10,18 +11,17 @@ export const create = async (req, res) => {
     }
 };
 
+// 2. Read: Fetch all reported items
 export const fetch = async (req, res) => {
     try {
         const items = await Item.find();
-        if (items.length === 0) {
-            return res.status(404).json({ message: "No items found." });
-        }
         res.status(200).json(items);
     } catch (error) {
         res.status(500).json({ error: "Internal Server Error." });
     }
 };
 
+// 3. Update: Modify item details by ID
 export const update = async (req, res) => {
     try {
         const id = req.params.id;
@@ -36,6 +36,7 @@ export const update = async (req, res) => {
     }
 };
 
+// 4. Delete: Remove an item record by ID
 export const deleteItem = async (req, res) => {
     try {
         const id = req.params.id;

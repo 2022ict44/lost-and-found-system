@@ -21,6 +21,10 @@ const itemSchema = new mongoose.Schema({
         type: String, 
         required: true,
     },
+    completed: {
+        type: Boolean,
+        default: false,
+    },
 });
 
 export default mongoose.model("items", itemSchema); 
