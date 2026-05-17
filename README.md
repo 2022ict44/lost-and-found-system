@@ -358,10 +358,9 @@ Lost-and-Found-System/
 
 ## Author
 
-**[Your Name]**  
-**Student ID:** [Your Student ID]  
-**Program:** [Your Program]  
-**Institution:** [Your University]
+M.G.D.Apsara
+2022/ict/38
+Lost-and-Found System
 
 ---
 
