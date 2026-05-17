@@ -83,7 +83,7 @@ All item routes are prefixed with `/api/items`.
 ---
 
 ### POST — Report a New Item
-
+![post](./Screenshot/post.png.png)
 
 **Endpoint:** `POST http://localhost:8000/api/items/report`
 
@@ -349,6 +349,12 @@ Lost-and-Found-System/
 ```
 
 ---
+## Another Screenshots
+
+![mongoDB](./Screenshot/Lost-and-Found-System.png.png)
+![delete](./Screenshot/mongoDB.png.png)
+![delete](./Screenshot/create.png.png)
+![delete](./Screenshot/delete1.png.png)
 
 ## Author
 
