@@ -84,6 +84,7 @@ All item routes are prefixed with `/api/items`.
 
 ### POST — Report a New Item
 
+
 **Endpoint:** `POST http://localhost:8000/api/items/report`
 
 **Request body (JSON):**
@@ -125,6 +126,7 @@ All item routes are prefixed with `/api/items`.
 ---
 
 ### GET — Retrieve All Items
+![get](./Screenshot/get.png.png)
 
 **Endpoint:** `GET http://localhost:8000/api/items/getall`
 
@@ -160,6 +162,7 @@ All item routes are prefixed with `/api/items`.
 ---
 
 ### PUT — Update an Item by ID
+![put](./Screenshot/put.png.png)
 
 **Endpoint:** `PUT http://localhost:8000/api/items/update/:id`
 
@@ -201,6 +204,7 @@ All item routes are prefixed with `/api/items`.
 ---
 
 ### DELETE — Remove an Item by ID
+![delete](./Screenshot/delete.png.png)
 
 **Endpoint:** `DELETE http://localhost:8000/api/items/delete/:id`
 
