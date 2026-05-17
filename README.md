@@ -351,10 +351,10 @@ Lost-and-Found-System/
 ---
 ## Another Screenshots
 
-![mongoDB](./Screenshot/Lost-and-Found-System.png.png)
-![delete](./Screenshot/mongoDB.png.png)
-![delete](./Screenshot/create.png.png)
-![delete](./Screenshot/delete1.png.png)
+![Lost-and-Found-System](./Screenshot/Lost-and-Found-System.png)
+![mongoDB](./Screenshot/mongoDB.png.png)
+![create](./Screenshot/create.png.png)
+![delete1](./Screenshot/delete1.png.png)
 
 ## Author
 
